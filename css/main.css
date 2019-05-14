@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada');
+
+:root {
+    --lightpink: #FF6C89;
+    --darkpink: rgb(255, 98, 130);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+body {
+    content: "";
+    background: url("../img/background-image.svg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+#myNav {
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../img/ham-menu.svg);
+}
+
+.font-heading {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 1.25rem;
+}
+
+.font-body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-pink {
+    background-color: #ED1E79;
+}
+
+.bg-lightpink {
+    background-color: var(--lightpink);
+}
+
+.navbar-hamburger {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url(../img/ham-menu.svg);
+}
+
+.pinkNav {
+    background-color: var(--lightpink);
+    color: black;
+    border: solid 2px black;
+}
+
+.blackNav {
+    background-color: black;
+    color: pink;
+    border: #e83e8c;
+}
+
+.nav-item :hover {
+    text-decoration: none;
+    color: gray;
+}
+
+#carouselOuter {
+    background-color: var(--lightpink);
+    border: solid 4px black;
+    margin: 20px 0px 20px 0px;
+}
+
+#carouselTop {
+    margin: 10px 10px 10px 10px;
+    outline: solid 4px black;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 300px !important;
+}
+
+.area-container {
+    background-color: var(--darkpink);
+    border: solid 4px black; 
+}
+
+.body-item-left img {
+    width: 100%;
+    outline: solid 3px black;
+}
+
+h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.nestedRows {
+    background-color: var(--lightpink);
+    border: solid 4px black;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    min-height: 20vh;
+}
+
+.area-card {
+    height: 550px;
+}
+
+.contact-card .card-body {
+    border: solid 4px black;
+    background-color: var(--lightpink);
+}
+
+.card img {
+    outline: solid 4px black;
+    border-radius: 0;
+}
+
+.area-card .card-body {
+    height: 300px;
+    border: solid 4px black;
+    background-color: var(--lightpink);
+}
+
+.card-text a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-text :hover {
+    color: gray;
+    text-decoration-color: gray;
+}
+
+.hoverBait :hover {
+    color: inherit;
+    background-color: palevioletred;
+    text-decoration: none;
+}
+
+.articles {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gallery {
+    background-color: var(--darkpink);
+    border: solid 4px black;
+}
+
+.inner-gallery {
+    outline: solid 3px black;
+}
+
+#tweetBox {
+    margin-bottom: 15px;
+    /* outline: solid 3px black; */
+}
+
+#footer {
+    border-top: solid 2px black;
+}
+
+.footer-copyright a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-copyright p :hover {
+    color: gray;
+    text-decoration: gray;
+}
+
+#footer ul li a {
+    color: black;
+}
