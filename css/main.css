@@ -4,6 +4,7 @@
     --lightpink: #FF6C89;
     --darkpink: rgb(255, 98, 130);
     --verylightpink: #FFA5B4;
+    --veryverylightpink: rgb(255, 202, 211);
 }
 
 html {
@@ -224,7 +225,7 @@ h3 {
 .form-group select {
     border-radius: 0;
     border: solid 1px black;
-    background-color: var(--verylightpink);
+    background-color: var(--veryverylightpink);
 }
 
 textarea:focus,
@@ -243,7 +244,7 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-    background-color: var(--verylightpink);
+    background-color: var(--veryverylightpink);
     box-shadow: 0 1px 1px var(--lightpink) inset, 0 0 8px var(--darkpink);
 }
 
