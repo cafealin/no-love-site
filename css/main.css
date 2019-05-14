@@ -3,6 +3,7 @@
 :root {
     --lightpink: #FF6C89;
     --darkpink: rgb(255, 98, 130);
+    --verylightpink: #FFA5B4;
 }
 
 html {
@@ -92,7 +93,7 @@ body {
 
 .area-container {
     background-color: var(--darkpink);
-    border: solid 4px black; 
+    border: solid 4px black;
 }
 
 .body-item-left img {
@@ -139,6 +140,12 @@ h3 {
     background-color: var(--lightpink);
 }
 
+.ticket-card .card-body {
+    height: 200px;
+    border: solid 4px black;
+    background-color: var(--lightpink);
+}
+
 .card-text a {
     color: black;
     text-decoration: none;
@@ -167,6 +174,77 @@ h3 {
 
 .inner-gallery {
     outline: solid 3px black;
+}
+
+.history-img {
+    outline: solid 3px black;
+}
+
+.tickets a {
+    color: black;
+}
+
+.btn.btn-primary {
+    color: black;
+    height: 3rem;
+    width: auto;
+    border-radius: 0; 
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--verylightpink);
+    border: solid 2px black;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary:hover {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--darkpink);
+    border: solid 2px black;
+}
+
+#fixed:hover {
+    background-image: none;
+}
+
+/* #btn-custom {
+    border-radius: 0;
+    background-color: var(--verylightpink);
+    border: solid 2px black;
+    height: 3rem;
+    width: auto;
+}
+
+#btn-custom :hover {
+    background-image: none;
+    background-color: var(--lightpink);
+} */
+
+.form-group input,
+.form-group select {
+    border-radius: 0;
+    border: solid 1px black;
+    background-color: var(--verylightpink);
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    background-color: var(--verylightpink);
+    box-shadow: 0 1px 1px var(--lightpink) inset, 0 0 8px var(--darkpink);
 }
 
 #tweetBox {
