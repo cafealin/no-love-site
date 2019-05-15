@@ -12,6 +12,7 @@ html {
     width: 100%;
 }
 
+/* hide horizontal scrollbar */
 .container-fluid {
     overflow: hidden;
 }
@@ -73,6 +74,7 @@ body {
 
 .nav-item :hover {
     text-decoration: none;
+    font-weight: 500;
     color: gray;
 }
 
@@ -106,6 +108,10 @@ h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
+h2{
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
 h3 {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
@@ -132,6 +138,8 @@ h3 {
 
 .card img {
     outline: solid 4px black;
+    /* lazy fix to over saturated images found online */
+    filter: grayscale(20%);
     border-radius: 0;
 }
 
@@ -175,6 +183,8 @@ h3 {
 
 .inner-gallery {
     outline: solid 3px black;
+    /* lazy fix to over saturated images found online */
+    filter: grayscale(30%);
 }
 
 .history-img {
@@ -204,6 +214,29 @@ h3 {
     border: solid 2px black;
 }
 
+.btn.btn-secondary {
+    color: black;
+    height: 3rem;
+    width: auto;
+    border-radius: 0; 
+    font-family: 'Montserrat Subrayada', sans-serif;
+    background-color: var(--darkpink);
+    border: solid 2px black;
+}
+
+.btn.btn-secondary:focus,
+.btn.btn-secondary:active,
+.btn.btn-secondary:hover {
+    color: black;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    background-color: var(--verylightpink);
+    border: solid 2px black;
+}
+
+.btn.btn-secondary a {
+    color: black;
+}
+
 #fixed:hover {
     background-image: none;
 }
@@ -228,6 +261,7 @@ h3 {
     background-color: var(--veryverylightpink);
 }
 
+/* change input background colour while active to light pink */
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -250,7 +284,6 @@ input[type="color"]:focus,
 
 #tweetBox {
     margin-bottom: 15px;
-    /* outline: solid 3px black; */
 }
 
 #footer {
