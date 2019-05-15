@@ -108,7 +108,7 @@ h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
-h2{
+h2 {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -199,7 +199,7 @@ h3 {
     color: black;
     height: 3rem;
     width: auto;
-    border-radius: 0; 
+    border-radius: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--verylightpink);
     border: solid 2px black;
@@ -218,7 +218,7 @@ h3 {
     color: black;
     height: 3rem;
     width: auto;
-    border-radius: 0; 
+    border-radius: 0;
     font-family: 'Montserrat Subrayada', sans-serif;
     background-color: var(--darkpink);
     border: solid 2px black;
