@@ -127,10 +127,6 @@ h3 {
     min-height: 20vh;
 }
 
-.area-card {
-    height: 550px;
-}
-
 .contact-card .card-body {
     border: solid 4px black;
     background-color: var(--lightpink);
@@ -144,14 +140,13 @@ h3 {
 }
 
 .area-card .card-body {
-    height: 300px;
+    min-height: 18rem;
     border: solid 4px black;
     background-color: var(--lightpink);
-    overflow: auto;
 }
 
 .ticket-card .card-body {
-    height: 200px;
+    height: 15rem;
     border: solid 4px black;
     background-color: var(--lightpink);
 }
