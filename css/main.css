@@ -147,6 +147,7 @@ h3 {
     height: 300px;
     border: solid 4px black;
     background-color: var(--lightpink);
+    overflow: auto;
 }
 
 .ticket-card .card-body {
